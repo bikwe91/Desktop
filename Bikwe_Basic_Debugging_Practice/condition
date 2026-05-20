@@ -1,0 +1,7 @@
+a = True
+b = False
+
+if (a and b) or not a:
+    print("Condition is True")
+else:
+    print("Condition is False")
