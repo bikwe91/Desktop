@@ -1,0 +1,31 @@
+class Car:
+
+  def __init__(self, make, model, year):
+
+    self.make = make
+
+    self.model = model
+
+    self.year = year
+
+ 
+
+  def __str__(self):
+
+      return f"{self.year} {self.make} {self.model}"
+
+ 
+
+  #Create instance of Car 
+
+    car1 = Car("Toyota", "Camry", 2022)
+
+    car2 = Car("Jeep", "Wrangler", 2020)
+
+ 
+
+  #Print the car objects
+
+print(car1) # Output: 2022 Toyota Camry
+
+print(car2) # Output: 2020 Jeep Wrangler
